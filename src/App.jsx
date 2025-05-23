@@ -50,6 +50,7 @@ function App() {
       } else {
    
           toast.success("Saved successfully!");
+          
     
       }
     } else {
@@ -66,6 +67,7 @@ function App() {
         setRowId(data.id);
      
           toast.success("Saved successfully!");
+       
 
       }
     }
